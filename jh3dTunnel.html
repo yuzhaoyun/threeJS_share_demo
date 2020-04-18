@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ThreeJS分享Demo</title>
+  <!-- 引入页面样式 -->
+  <link rel="stylesheet" href="./index.css">
+  <!--引入three.js三维引擎-->
+  <script src="./three.js-master/build/three.js"></script>
+  <!-- 引入threejs扩展控件OrbitControls.js -->
+  <script src="./three.js-master/examples/js/controls/OrbitControls.js"></script>
+  <!-- 引入obj模型加载库OBJLoader.js -->
+  <script src="./three.js-master/examples/js/loaders/OBJLoader.js"></script>
+  <!-- 引入obj模型材质加载库MTLLoader.js -->
+  <script src="./three.js-master/examples/js/loaders/MTLLoader.js"></script>
+</head>
+
+<body>
+  <div id="app" z-index="105">
+    <div id="infoJC" style="right: 10px;">
+      <div id="menu">
+        <h3>监测信息</h3>
+      </div>
+      <div class="zhaoming">
+        <div class="titleDeng">
+          <h4>照明灯具</h4>
+        </div>
+        <p>洞内光强值 : <span>66 cd/m²</span></p>
+        <p>洞外光强值 : <span>66 cd/m²</span></p>
+        <p>洞外光强值 : <span>66 cd/m²</span></p>
+      </div>
+      <div class="zhaoming">
+        <div class="titleDeng">
+          <h4>回路详情</h4>
+        </div>
+        <p>回路一电流 : <span>10 A</span></p>
+        <p>回路一电压 : <span>220 V</span></p>
+        <p>回路二电流 : <span>12 A</span></p>
+        <p>回路二电压 : <span>220 V</span></p>
+      </div>
+      <div class="zhaoming">
+          <div class="titleDeng">
+            <h4>灯具设备</h4>
+          </div>
+          <p>灯具总数 : <span>500</span></p>
+          <p>正常灯具数 : <span>500</span></p>
+          <p>正常率 : <span>100 %</span></p>
+        </div>
+      <div class="last">
+        <div class="titleDeng">
+          <h4>其他信息</h4>
+        </div>
+        <p>温度 : <span>23 ℃</span></p>
+        <p>湿度 : <span>6.6 RH</span></p>
+        <p>烟雾浓度值 : <span>6.6 %FT</span></p>
+        <p>一氧化碳浓度 : <span>66 cd/m²</span></p>
+        <p>隧道风向 : <span>东 30°</span></p>
+        <p>隧道风速值 : <span>0.5 m/s</span></p>
+      </div>
+    </div>
+    <!-- 设备操作表单 -->
+    <div id="operatInfo" style="left: 10px;"></div>
+    <div id="operatSuc" style="left: 45%;top:30%"></div>
+  <script src="./index.js"></script>
+</body>
+
+</html>

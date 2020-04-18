@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+#app{
+  height: 100%;
+}
+
+#infoJC {
+    position: absolute;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('./assets/bgcImg.png');
+    padding: 0px 15px 15px 15px;
+    z-index: 102;
+    width: 230px;
+    max-height: 90%;
+    color: #ffffff;
+    overflow: auto;
+}
+
+#infoJC::-webkit-scrollbar {
+    display: none;
+}
+
+#operatInfo {
+    position: absolute;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    z-index: 102;
+    width: 230px;
+    height: auto;
+    color: #ffffff;
+}
+
+#operatSuc {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu h3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: #48F3E6;
+}
+
+.titleDeng {
+    text-align: center;
+    color: #08B7A6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.titleDeng h4 {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.zhaoming p {
+    font-size: 13px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.last p {
+    font-size: 13px;
+}
+
+.last p span {
+    /* margin-left: 80px; */
+    float: right;
+    margin-right: 3px;
+    color: #00D2BB;
+}
+
+.zhaoming p span {
+    /* margin-left: 80px; */
+    float: right;
+    margin-right: 3px;
+    color: #00D2BB;
+}
+
+.operatSpan {
+    border: 1px solid #fff;
+    padding: 1px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #04A698;
+}
