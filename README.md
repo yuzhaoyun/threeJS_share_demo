@@ -190,7 +190,7 @@ let camera = new THREE.OrthographicCamera(-s * k, s * k, s, -s, 1, 1000);
 camera.position.set(200, 300, 200); //设置相机位置
 camera.lookAt(scene.position); // 设置相机方向(指向的场景对象)
 ```
-# 2、顶点概念、几何体结构 （这块项目中不常用）
+# 2、顶点概念、几何体结构 （真实项目中不常用）
 ## 2.1 顶点位置数据解析渲染
 ```javascript
 /**
