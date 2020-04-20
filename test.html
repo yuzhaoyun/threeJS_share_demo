@@ -58,9 +58,9 @@
 						opacity: 0.5
 					});
 					var mesh = new THREE.Mesh(geometry, material);
-					// mesh.position.x = Math.random() * 100 - 10;
-					// mesh.position.y = Math.random() * 100 - 10;
-					// mesh.position.z = Math.random() * 100 - 10;
+					mesh.position.x = Math.random() * 100 - 10;
+					mesh.position.y = Math.random() * 100 - 10;
+					mesh.position.z = Math.random() * 100 - 10;
 					mesh.position.set(Math.random() * 100 - 10,Math.random() * 100 - 10,Math.random() * 100 - 10);
 					scene.add(mesh);
 				}
